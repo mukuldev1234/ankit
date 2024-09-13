@@ -1,0 +1,181 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0070f3;
+}
+
+.nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-demo {
+  background-color: transparent;
+  border: 1px solid #0070f3;
+  color: #0070f3;
+}
+
+.btn-login {
+  background-color: transparent;
+  border: 1px solid #0070f3;
+  color: #0070f3;
+}
+
+.btn-job {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #0070f3;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-code {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.cta input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.btn-start {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-start:hover {
+  background-color: #005bb5;
+}
+
+
+
+.company-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.company-logos img {
+  height: 50px;
+  margin: 0 15px;
+}
+
+.why-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.why-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #0070f3;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tab {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+}
+
+.ai-shortlister {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ai-shortlister h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.ai-shortlister p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ai-img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
